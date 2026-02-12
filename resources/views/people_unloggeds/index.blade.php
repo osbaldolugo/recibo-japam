@@ -11,8 +11,7 @@
                                                 <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
                                                 <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                                         </div>
-                                        <h4 class="panel-title">Denunciantes no registrados en JapamMovil</h4>
-                                        <!--<a class="btn btn-primary pull-right" style="margin-top: 25px" href="{!! route('peopleUnloggeds.create') !!}"></a>-->
+                                        <h4 class="panel-title">Denunciantes no registrados en Japam</h4>
                                 </div>
 
                                 <div class="panel-body">

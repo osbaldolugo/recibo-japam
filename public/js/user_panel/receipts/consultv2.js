@@ -72,29 +72,21 @@ $(function () {
                 crud: "Notificación",
                 successCallback: function (data) {
                     muestra_oculta('receipt-contrac');
-                     //console.log(data.receiptContract==contrato_consultado);
-                     // console.log(data.receiptContract);
-                     //console.log(contrato_consultado);
                      
                     console.log({data});
                     let contrato_correcto= data.clave==contrato_consultado;
                     console.log(data.clave);
-                    //console.log(contrato_consultado) ;
-                    
                     
                     if(contrato_correcto===false){
                         let dis = document.getElementsByClassName("panel-body");
-                        dis[0].innerHTML = `<div class="texto-no-encontrado">Lo sentimos, los datos introducidos <b>"${contrato_consultado}"</b> no coinciden, favor de verificar e <a href="https://www.japammovil.com/tcs/public/receipts/searchGuest">intentar nuevamente</a></div>`;
+                        dis[0].innerHTML = `<div class="texto-no-encontrado">Lo sentimos, los datos introducidos <b>"${contrato_consultado}"</b> no coinciden, favor de verificar e <a href="https://www.japam.gob.mx/correo/tcs/public/receipts/searchGuest">intentar nuevamente</a></div>`;
                         setTimeout(()=>{
                             let borrar_div = document.getElementById("consult-receipt");
                         borrar_div.innerHTML ="";
                         },100);
                         return;
-                       // console.log("Los datos introducidos no coinciden , favor de verificar e intentar nuevamente");
                     }
                     
-                    //console.log('---');
-                    //console.log(data);
                     $("#btnGeneratePdf").data('receipt', data.receiptId);
                     $("#receiptUrl").attr("src", '');
 
@@ -234,7 +226,7 @@ $(function () {
                         </div>
                          <div style="margin-bottom: 4%">
                             <div style="text-align: left" class="col-md-2">Estatus del recibo:</div>
-                            <div class="col-md-4" style='font-weight:500;font-size:1.2em;color: ${data.status==='No Pagado'?'darkorange':'green'};'>${data.status} <img src=${data.status==='No Pagado'?'https://japammovil.com/img/no_pagado.svg':'https://japammovil.com/img/pagado.svg'} /></div>
+                            <div class="col-md-4" style='font-weight:500;font-size:1.2em;color: ${data.status==='No Pagado'?'darkorange':'green'};'>${data.status} <img src=${data.status==='No Pagado'?'https://japam.gob.mx/img/no_pagado.svg':'https://japam.gob.mx/img/pagado.svg'} /></div>
                             <div style="width: 100%; margin-bottom: 3%;" class="col-md-6"></div>
                         </div>
                         <div>
@@ -475,13 +467,6 @@ $(function () {
                         var moduloPagar = document.getElementById("moduloPagar");
                         moduloPagar.innerHTML= "<button type=\"button\" class=\"btn btn-success btn-lg\" data-toggle=\"modal\" data-target=\"#myModal\"><i class=\"fa fa-usd\"></i> Pagar recibo</button>"
                         }
-                        //btn2.href="https://avisojapam.japammovil.gob.mx/";
-                        //btn2.innerText = "Pagar recibo";
-
-
-                        //$("#btnRedirectBanco").attr("href") = "https://avisojapam.japammovil.gob.mx/"
-                        // var moduloPagar = document.getElementById("moduloPagar");
-                        //    moduloPagar.innerHTML= "<a href='https://avisojapam.japammovil.gob.mx/'>Más información</a>"
                     }
                     
                    

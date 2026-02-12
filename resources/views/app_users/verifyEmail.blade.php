@@ -64,7 +64,7 @@
                         <div class="border-default">
                             <p class="body sbold">{{$name}}, gracias por sumarte con nosotros <span style="color: #0aad2e;">#</span><span style="color: #013ca6;">acepta</span><span style="color: #0aad2e;">el</span><span style="color: #013ca6;">reto</span>.</p>
                         </div>
-                        <p class="body">Ahora que has activado tu cuenta ya puedes iniciar sesión en <img style="display: inline-block !important; vertical-align: middle !important;" src="{{URL::asset('img/email/lg-logo.png')}}" width="105" height="55"> o en <a href="{{route('appUser.login.view')}}">www.japammovil.com</a></p>
+                        <p class="body">Ahora que has activado tu cuenta ya puedes iniciar sesión en <img style="display: inline-block !important; vertical-align: middle !important;" src="{{URL::asset('img/email/lg-logo.png')}}" width="105" height="55"> o en <a href="{{route('appUser.login.view')}}">www.japam.gob.mx</a></p>
                     @elseif($activado == 0)
                         <img src="{{URL::asset('img/email/mail_error.png')}}" class="image img-responsive">
                         <div class="title error">Hubo un problema al intentar activar su cuenta</div>

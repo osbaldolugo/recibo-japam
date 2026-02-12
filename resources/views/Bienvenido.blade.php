@@ -27,26 +27,7 @@
                 <a href="{!! route('complain.create') !!}" style="background: #4e7d92; color: white" class="btn btn-block btn-lg">
                     <i class="fa fa-comment"></i> Servicios en linea
                 </a>
-                <!-- <div class="text-center">
-                    <a href="{{ route('appUser.login.view') }}" class="btn btn-primary btn-lg">
-                        <i class="fa fa-sign-in"></i> Iniciar Sesión
-                    </a>
-
-                    <a href="{!! route('register') !!}" class="btn btn-secondary btn-lg">
-                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Registrarse
-                    </a>
-                </div> -->
-            <!--    <div style="margin-top: 10px" class="text-center"><label style="color: #41B125">(Recuerda que no necesitas estar registrado para realizar tu pago).</label></div> -->
-              <!--  <div style="margin-top: 20px" class="text-center"><label style="color: #013ca6">Nota: Registrate en JAPAM y controla tu servicio de agua desde tu cuenta.</label></div>-->
-            </div>
-
-             <!--
-       <div style="" id="inferior">
-            <p class="text-center">
-                <strong>Copyright © {!! date('Y') !!} <a target="_blank" href="https://japammovil.gob.mx/">JAPAM</a>.</strong> Todos los derechos reservados.
-            </p>
-        </div>-->
-
+        </div>
     </div>
 
 @endsection()
@@ -59,17 +40,6 @@
 @endsection()
 
 @section('scripts')
-
-    <!--
-        <script src="../../node_modules/pdfjs-dist/build/pdf.js"></script>
-    -->
-    <!--
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.487/pdf.js"></script>
-    -->
-   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.487/pdf.min.js"></script>
-
-    {{Html::script('js/slider.js')}} -->
-
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
     {!!Html::script('assets/plugins/bootstrap-toastr/toastr.min.js')!!}
     {!!Html::script('assets/plugins/switchery/switchery.min.js')!!}

@@ -102,7 +102,7 @@ function habilitar(value) {
 function validateReceipt(contract, barcode) {
     var params = {
         type: 'GET',
-        url: 'https://japammovil.com/tcs/public/receipt/owner/' + contract + '/' + barcode,
+        url: 'https://japam.gob.mx/correo/tcs/public/receipt/owner/' + contract + '/' + barcode,
         loadingSelector: $("#loading"),
         form: null,
         crud: 'Respuesta del servidor',

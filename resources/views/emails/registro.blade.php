@@ -396,15 +396,6 @@
         }
     </style>
 </head>
-<!-- NAME: POP-UP -->
-<!--[if gte mso 15]>
-<xml>
-    <o:OfficeDocumentSettings>
-        <o:AllowPNG/>
-        <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-</xml>
-<![endif]-->
 
 <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" waid71fa0d88-5390-4b5b-a2f4-e45fa93d85e2="SA password protect entry checker" class="mcd np">
 <center>
@@ -753,7 +744,7 @@
                                                                                                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="">
                                                                                                                                                         <tbody><tr>
                                                                                                                                                             <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                                                                                                                                <a href="https://www.japammovil.com/" target="_blank"><img src="{{ url('img/link.png') }}" style="display:block;" height="24" width="24" class=""></a>
+                                                                                                                                                                <a href="https://www.japam.gob.mx/" target="_blank"><img src="{{ url('img/link.png') }}" style="display:block;" height="24" width="24" class=""></a>
                                                                                                                                                             </td>
                                                                                                                                                         </tr>
                                                                                                                                                         </tbody>
@@ -889,7 +880,7 @@
                                                                                                         <strong>Contactanos a nuestro correo electrónico:</strong><br/>
                                                                                                         contacto@japam.gob.mx<br/>
                                                                                                         <br/>
-                                                                                                        <strong>Revisa nuestras <a href="https://japammovil.com/aviso_privacidad.html" target="_blank">Políticas de privacidad</a> y nuestros <a href="https://japammovil.com/terminos_condiciones.html" target="_blank">Términos y Condiciones</a></strong>
+                                                                                                        <strong>Revisa nuestras <a href="https://japam.gob.mx/aviso-de-privacidad.html" target="_blank">Políticas de privacidad</a> y nuestros <a href="https://japam.gob.mx/terminos-y-condiciones.html" target="_blank">Términos y Condiciones</a></strong>
                                                                                                     </center>
                                                                                                 </td>
                                                                                             </tr>

@@ -1,2 +1,0 @@
-[12-Mar-2021 04:44:08 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /home/japammovil/public_html/tcs/bootstrap/app.php on line 14
-[28-May-2021 12:45:05 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /home/japammovil/public_html/tcs/bootstrap/app.php on line 14

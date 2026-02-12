@@ -78,18 +78,6 @@
 <li>
     <hr>
 </li>
-<li class="">
-    <a href="https://japammovil.gob.mx/app-movil/">
-        <i class="ion-iphone bg-grey-darker"></i>
-        <span>App Móvil</span>
-    </a>
-</li>
-<li class="">
-    <a href="https://japammovil.gob.mx/conocenos/">
-        <i class="ion-wand bg-primary-transparent-7"></i>
-        <span>Conoce más</span>
-    </a>
-</li>
 {{--
     <li class="{{ Request::is('schedule*') ? 'active' : '' }}">
         <a href="{!! route('schedule.request') !!}">

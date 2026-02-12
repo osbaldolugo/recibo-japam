@@ -396,15 +396,6 @@
         }
     </style>
 </head>
-<!-- NAME: POP-UP -->
-<!--[if gte mso 15]>
-<xml>
-    <o:OfficeDocumentSettings>
-        <o:AllowPNG/>
-        <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-</xml>
-<![endif]-->
 
 <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" waid71fa0d88-5390-4b5b-a2f4-e45fa93d85e2="SA password protect entry checker" class="mcd np">
 <center>
@@ -587,24 +578,6 @@
                                                                     </tr>
                                                                     </tbody>
                                                                 </table>
-                                                                <!-- 
-                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
-                                                                    <tbody class="mcnImageBlockOuter">
-                                                                    <tr>
-                                                                        <td valign="top" style="padding:0px" class="mcnImageBlockInner">
-                                                                            <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
-                                                                                <tbody><tr>
-                                                                                    <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
-                                                                                        <img align="center" alt="" src="{{URL::to('img/email/imagen.png')}}" width="600" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage blockDropTarget" id="dijit__Templated_4" widgetid="dijit__Templated_4">
-                                                                                    </td>
-                                                                                </tr>
-                                                                                </tbody>
-                                                                            </table>
-                                                                        </td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                                 -->
                                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
                                                                     <tbody class="mcnDividerBlockOuter">
                                                                     <tr>
@@ -881,14 +854,14 @@
                                                                                                 <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
                                                                                                     <center>
                                                                                                         
-                                                                                                        <strong>Copyright © {!! date('Y') !!} <a target="_blank" href="https://japammovil.gob.mx/">JAPAM</a>.</strong> Todos los derechos reservados.
+                                                                                                        <strong>Copyright © {!! date('Y') !!} <a target="_blank" href="https://japam.gob.mx/">JAPAM</a>.</strong> Todos los derechos reservados.
                                                                                                         <br>
                                                                                                         Junta de Agua Potable y Alcantarillado Municipal<br>
                                                                                                         <br>
                                                                                                         <strong>Contactanos a nuestro correo electrónico:</strong><br>
                                                                                                         contacto@japam.gob.mx<br/>
                                                                                                         <br/>
-                                                                                                        <strong>Revisa nuestras <a href="https://japammovil.com/aviso_privacidad.html" target="_blank">Políticas de privacidad</a> y nuestros <a href="https://japammovil.com/terminos_condiciones.html" target="_blank">Términos y Condiciones</a></strong>
+                                                                                                        <strong>Revisa nuestras <a href="https://japam.gob.mx/aviso_privacidad.html" target="_blank">Políticas de privacidad</a> y nuestros <a href="https://japam.gob.mx/terminos_condiciones.html" target="_blank">Términos y Condiciones</a></strong>
                                                                                                     </center>
                                                                                                 </td>
                                                                                             </tr>

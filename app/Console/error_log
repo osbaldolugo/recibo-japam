@@ -1,1 +1,0 @@
-[12-Mar-2021 05:30:37 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/japammovil/public_html/tcs/app/Console/Kernel.php on line 9

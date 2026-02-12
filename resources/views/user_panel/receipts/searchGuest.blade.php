@@ -61,7 +61,6 @@
                         Recibo
                     </div>
                     <div class="card-block text-center">
-                        <!--<img src="{!! url('assets/img/receipt/icon.png') !!}" alt="" class="img img-responsive img-paid-receipt" >-->
                         <h4 class="card-title">Ingrese la información de su recibo</h4>
 
                         <div class="row">
@@ -103,15 +102,9 @@
                                                     </tr>
                                                 </table>
                                                 <td style="height:10px;"></td>
-
                                             </div>
                                         </div>
-
                                     </div>
-                                    <!--<span hidden class="input-group-addon help" data-toggle="tooltip"
-                                                          data-placement="top" data-html="true"
-                                                          title="<div class='help-receipt'><img src='{{url('https://japammovil.com/img/contrato_mini.png')}}'></div>">
-                                                           <i class="fa fa-question"></i></span>-->
                                 </div>
                             </li>
                         </div>
@@ -167,14 +160,7 @@
 
 @section('scripts')
 
-    <!--
-            <script src="../../node_modules/pdfjs-dist/build/pdf.js"></script>
-        -->
-    <!--
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.487/pdf.js"></script>
-        -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.487/pdf.min.js"></script>
-
 
     {!!Html::script('assets/plugins/bootstrap-toastr/toastr.min.js')!!}
     {!!Html::script('assets/plugins/switchery/switchery.min.js')!!}

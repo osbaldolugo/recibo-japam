@@ -401,15 +401,6 @@
         }
     </style>
 </head>
-<!-- NAME: POP-UP -->
-<!--[if gte mso 15]>
-<xml>
-    <o:OfficeDocumentSettings>
-        <o:AllowPNG/>
-        <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-</xml>
-<![endif]-->
 
 <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" waid71fa0d88-5390-4b5b-a2f4-e45fa93d85e2="SA password protect entry checker" class="mcd np">
 <center>
@@ -536,9 +527,6 @@
                                                                 <!-- Content of the block will get inserted inside of this -->
 
                                                                 <!-- Content of the block will get inserted inside of this -->
-
-
-                                                                <!-- Content of the block will get inserted inside of this -->
                                                                 <table style="max-width:100%; min-width:100%;" class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                     <tbody>
                                                                     <tr>
@@ -616,28 +604,6 @@
                                                                     </tr>
                                                                     </tbody>
                                                                 </table>
-                                                                <!--
-                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width:100%;">
-                                                                    <tbody class="mcnButtonBlockOuter">
-                                                                    <tr>
-                                                                        <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="center" class="mcnButtonBlockInner">
-                                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonContentContainer" style="border-collapse: separate !important; border-radius: 3px; background-color: rgb(1, 60, 166);">
-                                                                                <tbody>
-                                                                                <tr>
-                                                                                    <td align="center" valign="middle" class="mcnButtonContent" style="font-family: 'Myriad PRO', Arial; font-size: 16px; padding: 15px;">
-                                                                                        <center>
-                                                                                            <a class="mcnButton " title="Ver Video" href="https://www.youtube.com/watch?v=WlExHlebcF0" target="_blank" style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: rgb(255, 255, 255);">Ver Video</a>
-                                                                                        </center>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                </tbody>
-                                                                            </table>
-                                                                        </td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                                -->
-
                                                             </td>
                                                         </tr>
                                                         </tbody>
@@ -700,7 +666,7 @@
                                                                                                         <strong>Contactanos a nuestro correo electrónico:</strong><br>
                                                                                                         contacto@japam.gob.mx<br/>
                                                                                                         <br/>
-                                                                                                        <strong>Revisa nuestras <a href="https://japammovil.com/aviso_privacidad.html" target="_blank">Políticas de privacidad</a> y nuestros <a href="https://japammovil.com/terminos_condiciones.html" target="_blank">Términos y Condiciones</a></strong>
+                                                                                                        <strong>Revisa nuestras <a href="https://japam.gob.mx/aviso_privacidad.html" target="_blank">Políticas de privacidad</a> y nuestros <a href="https://japam.gob.mx/terminos_condiciones.html" target="_blank">Términos y Condiciones</a></strong>
                                                                                                     </center>
                                                                                                 </td>
                                                                                             </tr>

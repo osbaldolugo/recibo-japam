@@ -463,15 +463,6 @@
         }
     </style>
 </head>
-<!-- NAME: POP-UP -->
-<!--[if gte mso 15]>
-<xml>
-    <o:OfficeDocumentSettings>
-        <o:AllowPNG/>
-        <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-</xml>
-<![endif]-->
 
 <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" waid71fa0d88-5390-4b5b-a2f4-e45fa93d85e2="SA password protect entry checker" class="mcd np">
 <center>
@@ -600,7 +591,6 @@
                                                                 <!-- Content of the block will get inserted inside of this -->
 
                                                                 <!-- Content of the block will get inserted inside of this -->
-                                                                <!-- Content of the block will get inserted inside of this -->
                                                                 <table style="max-width:100%; min-width:100%;" class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
 
 
@@ -687,7 +677,7 @@
                                                                                         <tr>
                                                                                             <td style="padding: 10px 20px;">
                                                                                                 <center data-parsed="">
-                                                                                                    <img src="https://maps.google.com/maps/api/staticmap?center={{$lat}},{{$lng}}&zoom=15&size=480x151&maptype=roadmap&markers=icon:http://japammovil.com/tcs/public/img/marker_pay.png|{{$lat}},{{$lng}}&sensor=true&key=AIzaSyAWXq2gYROlsYlvPONhJMLYvlpSVbBiGBE" align="center" class="float-center" style="width: 100%;"></center>
+                                                                                                    <img src="https://maps.google.com/maps/api/staticmap?center={{$lat}},{{$lng}}&zoom=15&size=480x151&maptype=roadmap&markers=icon:https://japam.gob.mx/correo/tcs/public/img/marker_pay.png|{{$lat}},{{$lng}}&sensor=true&key=AIzaSyAWXq2gYROlsYlvPONhJMLYvlpSVbBiGBE" align="center" class="float-center" style="width: 100%;"></center>
                                                                                             </td>
                                                                                         </tr>
                                                                                     </tbody>
@@ -705,27 +695,6 @@
                                                                 </table>
                                                                 <!-- Content of the block will get inserted inside of this -->
 
-                                                                <!--
-                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width:100%;">
-                                                                    <tbody class="mcnButtonBlockOuter">
-                                                                    <tr>
-                                                                        <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="center" class="mcnButtonBlockInner">
-                                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonContentContainer" style="border-collapse: separate !important; border-radius: 3px; background-color: rgb(1, 60, 166);">
-                                                                                <tbody>
-                                                                                <tr>
-                                                                                    <td align="center" valign="middle" class="mcnButtonContent" style="font-family: 'Myriad PRO', Arial; font-size: 16px; padding: 15px;">
-                                                                                        <center>
-                                                                                            <a class="mcnButton " title="Ver Video" href="https://www.youtube.com/watch?v=WlExHlebcF0" target="_blank" style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: rgb(255, 255, 255);">Ver Video</a>
-                                                                                        </center>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                </tbody>
-                                                                            </table>
-                                                                        </td>
-                                                                    </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                                -->
                                                                 <!-- Content of the block will get inserted inside of this -->
                                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowBlock" style="min-width:100%;">
                                                                     <tbody class="mcnFollowBlockOuter">

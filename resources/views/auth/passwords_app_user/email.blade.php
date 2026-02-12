@@ -32,9 +32,6 @@
                 <div class="col-md-6">
                         <a style="" href="{!! route('appUser.login.view') !!}" class="btn btn-secondary"><i class="fa fa-chevron-left"></i> &nbsp;Iniciar sesión</a>
                 </div>
-            <!--<div class="col-md-6">
-                    <a style="border-radius: 6%;" href="{{ route('receipts.searchGuest') }}" class="btn btn-success">Realiza tu pago&nbsp;<i class="fa fa-chevron-right"></i></a>
-                </div>-->
             </div>
 
             <hr />
@@ -42,7 +39,7 @@
         </form>
          <div style="margin-bottom: 0%;">
             <p class="text-center">
-                <strong>Copyright © {!! date('Y') !!} <a target="_blank" href="https://japammovil.gob.mx/">JAPAM</a>.</strong> Todos los derechos reservados.
+                <strong>Copyright © {!! date('Y') !!} <a target="_blank" href="https://japam.gob.mx/">JAPAM</a>.</strong> Todos los derechos reservados.
             </p>
         </div>
     </div>

@@ -1,2 +1,0 @@
-[12-Mar-2021 05:30:35 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/japammovil/public_html/tcs/app/Http/Kernel.php on line 8
-[29-May-2021 07:22:40 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/japammovil/public_html/tcs/app/Http/Kernel.php on line 8

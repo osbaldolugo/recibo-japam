@@ -396,15 +396,6 @@
             }
         </style>
     </head>
-    <!-- NAME: POP-UP -->
-    <!--[if gte mso 15]>
-    <xml>
-        <o:OfficeDocumentSettings>
-            <o:AllowPNG/>
-            <o:PixelsPerInch>96</o:PixelsPerInch>
-        </o:OfficeDocumentSettings>
-    </xml>
-    <![endif]-->
 
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" waid71fa0d88-5390-4b5b-a2f4-e45fa93d85e2="SA password protect entry checker" class="mcd np">
         <center>
@@ -588,24 +579,6 @@
                                                                                 </tr>
                                                                             </tbody>
                                                                         </table>
-                                                                        <!-- 
-                                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
-                                                                            <tbody class="mcnImageBlockOuter">
-                                                                                <tr>
-                                                                                    <td valign="top" style="padding:0px" class="mcnImageBlockInner">
-                                                                                        <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
-                                                                                            <tbody><tr>
-                                                                                                <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
-                                                                                                    <img align="center" alt="" src="{{ url('img/email/imagen_1.png') }}" width="600" style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage blockDropTarget" id="dijit__Templated_4" widgetid="dijit__Templated_4">
-                                                                                                </td>
-                                                                                            </tr>
-                                                                                            </tbody>
-                                                                                        </table>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                        -->
                                                                         <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
                                                                             <tbody class="mcnDividerBlockOuter">
                                                                                 <tr>
@@ -639,7 +612,7 @@
                                                                                                                     <br/>
                                                                                                                     
                                                                                                                     <br/>Consulta tu recibo a través de la app
-                                                                                                                    <br/><a href="https://japammovil.gob.mx/japam_movil.html" target="_blank" style="display: inline-block; margin-bottom: 5px; font-weight: 400; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; border: 1px solid #0039aa; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.44; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; color: #fff; background-color: #0039aa; text-decoration: inherit; box-shadow: none;">JAPAM Móvil</a>
+                                                                                                                    <br/><a href="https://japam.gob.mx" target="_blank" style="display: inline-block; margin-bottom: 5px; font-weight: 400; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; border: 1px solid #0039aa; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.44; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; color: #fff; background-color: #0039aa; text-decoration: inherit; box-shadow: none;">JAPAM Móvil</a>
                                                                                                                     <br/>o en el Portal Web
                                                                                                                     <br/><a href="{{ $japam_web }}" target="_blank" style="display: inline-block; margin-bottom: 5px; font-weight: 400; text-align: center; vertical-align: middle; touch-action: manipulation; cursor: pointer; border: 1px solid #0039aa; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.44; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; color: #fff; background-color: #0039aa; text-decoration: inherit; box-shadow: none;">JAPAM</a>
                                                                                                                     <br/>
@@ -751,7 +724,7 @@
                                                                                                                                                                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="">
                                                                                                                                                                     <tbody><tr>
                                                                                                                                                                         <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                                                                                                                                            <a href="https://www.japammovil.com/" target="_blank"><img src="{{ url('img/link.png') }}" style="display:block;" height="24" width="24" class=""></a>
+                                                                                                                                                                            <a href="https://www.japam.gob.mx/" target="_blank"><img src="{{ url('img/link.png') }}" style="display:block;" height="24" width="24" class=""></a>
                                                                                                                                                                         </td>
                                                                                                                                                                     </tr>
                                                                                                                                                                     </tbody>
@@ -887,7 +860,7 @@
                                                                                                                     <strong>Contactanos a nuestro correo electrónico:</strong><br/>
                                                                                                                     contacto@japam.gob.mx<br/>
                                                                                                                     <br/>
-                                                                                                                    <strong>Revisa nuestras <a href="https://japammovil.com/aviso_privacidad.html" target="_blank">Políticas de privacidad</a> y nuestros <a href="https://japammovil.com/terminos_condiciones.html" target="_blank">Términos y Condiciones</a></strong>
+                                                                                                                    <strong>Revisa nuestras <a href="https://japam.gob.mx/aviso-de-privacidad.html" target="_blank">Políticas de privacidad</a> y nuestros <a href="https://japam.gob.mx/terminos-y-condiciones.html" target="_blank">Términos y Condiciones</a></strong>
                                                                                                                 </center>
                                                                                                             </td>
                                                                                                         </tr>

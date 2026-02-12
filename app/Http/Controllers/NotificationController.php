@@ -218,89 +218,20 @@ class NotificationController extends AppBaseController
 
 
     public function sendNotification2(){
-      //$lisNotificaciones =  Notificacion::whereRaw('fecha_inicio = CURRENT_DATE()')->get();
-      //dd($lisNotificaciones);
-
-//dd(566);
-
-      /*
-        //Config Tu Ruta San Juan
-      $url = 'https://fcm.googleapis.com/fcm/send';
-      $firebaseAPIKey = 'AAAA1u8Ji7k:APA91bFo9uZjHlmEdZ_eC3wNufakqUQcPMRRr3qFv9E9YoXcaz7nZnBmMRorEnxKaR91oU7vmebIU_U5cpNgIojF6jUgMV6PeUd7hoxIZeHsMznao9S2qBYRSsVOgXTZH1bPOdWc48Ax';
-      //$firebaseAPIKey = 'AAAA6MuLvY8:APA91bEeZPOa_tD6MZuyZnGxHo-SUsIiSfHlSN75JbmmxeJELDcU5wck7JJ4qCI7xuByI9THy69ItVD8jHYTwfdJtj11Du_E2kHi3zy9dG62Qfqm6lGzNczNaERNvsmXcUoJpZEFgPRU';
-      $fields = array(
-          'priority' => 'high',
-          'to' => '/topics/tuRuta', //Topic or single device
-          //'to' => 'fKI4oFWqOP8:APA91bHU2fE6_jeHaYMhkylRarOGJQadnmxBIpwXXzkivtB5l7nILXe9q15j9uqS2gsIiu3wtDu1f9RWql_vEq1KRCpHZOhKKawyBKLYuhiKzu5YlHkmHjsOKUfGYZAyzO0JO-qy5bnz',
-          'notification' => [
-              'sound' => 'default',
-              'body' => 'La Presidencia Municipal de San Juan del Río los invita al Tercer Encuentro de las Culturas Populares',//'Te invitamos a ver el video del prototipo.',//'Revisa las nuevas notificaciones.',//No olvides revisar las nuevas notificaciones que Tu Ruta San Juan trae para ti.
-              'title' => 'Atención',
-              'icon' => 'fcm_push_icon',
-              'color'=> '#F7781E'//----------------------------------->cambiar
-          ],
-          'data' => [
-              //'url_image' => 'https://drscdn.500px.org/photo/186018965/q%3D80_m%3D1000/v2?webp=true&sig=27e2700fed91f129add66c7e8e5f47e92e7e7806adc19dd02e4216317a1a996b',
-              'titulo' => '',
-              'description' => '',
-              'url_image' => 'http://turutasanjuan.com/storage/app/isotech/26.jpg',//http://turutasanjuan.com/storage/app/isotech/14.png
-              'redirect' => true//indica si al recibir la notificacion redirecciona a la seccion de notificaciones o muestra el modals con la informacion
-          ],
-      );
-
-      $headers = array(
-          'Authorization: key=' . $firebaseAPIKey,
-          'Content-Type: application/json'
-      );
-      // Open connection
-      $ch = curl_init();
-      // Set the url, number of POST vars, POST data
-      curl_setopt($ch, CURLOPT_URL, $url);
-      curl_setopt($ch, CURLOPT_POST, true);
-      curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-      // Disabling SSL Certificate support temporarly
-      curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-      curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($fields));
-
-      // Execute post
-      $result = curl_exec($ch);
-      if ($result === FALSE) {
-          die('Curl failed: ' . curl_error($ch));
-      }
-      // Close connection
-      curl_close($ch);
-      return $result;
-
-*/
-
-
-
-        //$lisNotificaciones =  Notificacion::whereRaw('fecha_inicio = CURRENT_DATE()')->get();
-        //dd($lisNotificaciones);
-
-//dd(566);
         $url = 'https://fcm.googleapis.com/fcm/send';
         $firebaseAPIKey = 'AAAAmuPYJ8w:APA91bGk9SojO65I-7pnMrGTbBgW-UWdK6BiyQRK9-ICrNkaRCuTLzlQ9EL6I6Xl70CZnJyRfeBDDaFq3ZGRHoRdZ2issXSx9VpZVjZp2b3S6pSJlm__v__ORCFdmhnDziTumVkPlCwE';
-        //$firebaseAPIKey = 'AAAA6MuLvY8:APA91bEeZPOa_tD6MZuyZnGxHo-SUsIiSfHlSN75JbmmxeJELDcU5wck7JJ4qCI7xuByI9THy69ItVD8jHYTwfdJtj11Du_E2kHi3zy9dG62Qfqm6lGzNczNaERNvsmXcUoJpZEFgPRU';
         $fields = array(
             'priority' => 'high',
-            //'to' => '/topics/japamMovil', //Topic or single device
             'to' => 'ewBhiEq28J4:APA91bFd5L_oPvrhr8dpqqwo-7nqPe3OOiaUAXYXG0NMFtn5UHyu-5w_IxOFnVorJl3-9Cs3wlyNdDra4FjIxJ8SxYV1SzdmZuAWorU58YyhK4HMCabDPOZ71KA1eQw_YjyLJQRGDbM_',
             'notification' => [
                 'sound' => 'default',
-                'body' => 'Te invitamos al Centro Civico San Juan del Río.',//'Te invitamos a ver el video del prototipo.',//'Revisa las nuevas notificaciones.',//No olvides revisar las nuevas notificaciones que Tu Ruta San Juan trae para ti.
+                'body' => 'Te invitamos al Centro Civico San Juan del Río.',
                 'title' => 'Atención',
                 'icon' => 'push_icon',
-                //'color'=> '#013CA6'//----------------------------------->cambiar
             ],
             'data' => [
                 'title' => 'Centro Civico San Juan del Río.',
-                'description' => '',//'Te recordamos que el nuevo Centro Cívico ya está funcionando para ofrecerte un mejor servicio.',
-                //'urlImage' => 'https://scontent.fgdl5-2.fna.fbcdn.net/v/t1.0-9/22540086_1356866947772071_8792450619875439225_n.jpg?oh=7a33b3ca003071243823ebf201160c19&oe=5B4814F4',
-                //'http://japammovil.com/tcs/storage/app/japam/notification/1.png'
-                //'urlImage' => 'http://turutasanjuan.com/storage/app/isotech/24.jpeg',
+                'description' => '',
                 'urlImage' => 'https://instagram.fgdl5-2.fna.fbcdn.net/vp/ec18bbafbe3fb8efeb9a2e8455f43723/5B339283/t51.2885-15/e35/26153235_2003293226611220_2582051943702593536_n.jpg',
                 'urlInfo' => 'http://record.com.mx',
                 'redirect' => false//indica si al recibir la notificacion redirecciona a la seccion de notificaciones o muestra el modals con la informacion

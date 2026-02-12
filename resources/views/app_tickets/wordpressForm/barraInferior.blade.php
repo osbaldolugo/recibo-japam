@@ -130,39 +130,39 @@
 <body>
     <div class="contenedor-footer desktop ">
         <div class="col-generica">
-            <img src="https://www.japammovil.com/tcs/public/img/footer/jap.png" alt="logotipo" class="japam-logo">
+            <img src="https://www.japam.gob.mx/correo/tcs/public/img/footer/jap.png" alt="logotipo" class="japam-logo">
         </div>
         <div class="col-generica">
             <ul>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/msj-del-director/">Mensaje del director</a>
+                    <a class="links" href="https://japam.gob.mx/msj-del-director/">Mensaje del director</a>
                 </li>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/aviso-de-privacidad">Aviso de privacidad</a>
+                    <a class="links" href="https://japam.gob.mx/aviso-de-privacidad">Aviso de privacidad</a>
                 </li>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/politica-de-privacidad">Política de privacidad</a>
+                    <a class="links" href="https://japam.gob.mx/politica-de-privacidad">Política de privacidad</a>
                 </li>
             </ul>
         </div>
         <div class="col-generica">
             <ul>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/politicas-de-devolucion">Política de devolución</a>
+                    <a class="links" href="https://japam.gob.mx/politicas-de-devolucion">Política de devolución</a>
                 </li>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/terminos-y-condiciones">Términos y condiciones</a>
+                    <a class="links" href="https://japam.gob.mx/terminos-y-condiciones">Términos y condiciones</a>
                 </li>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/sucursales">Módulos de atención</a>
+                    <a class="links" href="https://japam.gob.mx/sucursales">Módulos de atención</a>
                 </li>
             </ul>
         </div>
         <div class="col-generica ">
             <div class="flex ">
-                <img src="https://www.japammovil.com/tcs/public/img/footer/ayuntamiento.png" alt="logotipo del ayuntamiento"
+                <img src="https://www.japam.gob.mx/correo/tcs/public/img/footer/ayuntamiento.png" alt="logotipo del ayuntamiento"
                 class="ayuntamiento-logo">
-                 <img src="https://www.japammovil.com/tcs/public/img/footer/san-juan.png" alt="logotipo del municipio"
+                 <img src="https://www.japam.gob.mx/correo/tcs/public/img/footer/san-juan.png" alt="logotipo del municipio"
                 class="municipio-logo">
              </div>
         </div>
@@ -171,39 +171,39 @@
     
     <div class="contenedor-footer movile ">
         <div class="col-generica">
-            <img src="https://www.japammovil.com/tcs/public/img/footer/jap.png" alt="logotipo" class="japam-logo">
+            <img src="https://www.japam.gob.mx/correo/tcs/public/img/footer/jap.png" alt="logotipo" class="japam-logo">
         </div>
         <div class="col-generica">
             <ul>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/msj-del-director/">Mensaje del director</a>
+                    <a class="links" href="https://japam.gob.mx/msj-del-director/">Mensaje del director</a>
                 </li>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/aviso-de-privacidad">Aviso de privacidad</a>
+                    <a class="links" href="https://japam.gob.mx/aviso-de-privacidad">Aviso de privacidad</a>
                 </li>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/politica-de-privacidad">Política de privacidad</a>
+                    <a class="links" href="https://japam.gob.mx/politica-de-privacidad">Política de privacidad</a>
                 </li>
             </ul>
         </div>
         <div class="col-generica">
             <ul>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/politicas-de-devolucion">Política de devolución</a>
+                    <a class="links" href="https://japam.gob.mx/politicas-de-devolucion">Política de devolución</a>
                 </li>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/terminos-y-condiciones">Términos y condiciones</a>
+                    <a class="links" href="https://japam.gob.mx/terminos-y-condiciones">Términos y condiciones</a>
                 </li>
                 <li>
-                    <a class="links" href="https://japammovil.gob.mx/sucursales">Módulos de atención</a>
+                    <a class="links" href="https://japam.gob.mx/sucursales">Módulos de atención</a>
                 </li>
             </ul>
         </div>
         <div class="col-flex">
-            <img src="https://www.japammovil.com/tcs/public/img/footer/ayuntamiento.png" alt="logotipo del ayuntamiento"
+            <img src="https://www.japam.gob.mx/correo/tcs/public/img/footer/ayuntamiento.png" alt="logotipo del ayuntamiento"
                 class="ayuntamiento-logo2">
         
-            <img src="https://www.japammovil.com/tcs/public/img/footer/san-juan.png" alt="logotipo del municipio"
+            <img src="https://www.japam.gob.mx/correo/tcs/public/img/footer/san-juan.png" alt="logotipo del municipio"
                 class="municipio-logo2">
         </div>
     </div>

@@ -23,7 +23,7 @@
                    style="cursor:pointer; cursor: hand" data-toggle="tooltip"
                    data-original-title="Ingresar direcci&oacute;n web si desea redireccionar a un sitio externo."></i>
             </label>
-            {!! Form::text('url_info', null, ['class' => 'form-control', 'id'=>'txtUrl', 'placeholder'=>'https://www.japammovil.com', 'data-parsley-type'=>'url']) !!}
+            {!! Form::text('url_info', null, ['class' => 'form-control', 'id'=>'txtUrl', 'placeholder'=>'https://www.japam.gob.mx', 'data-parsley-type'=>'url']) !!}
             <span style="display:inline;"></span>
         </div>
         @if(isset($showDateImage))

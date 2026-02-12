@@ -20,8 +20,6 @@
     {!!Html::style("assets/css/theme/default.css", ["id"=>"theme"])!!}
     
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <!-- <script src="sweetalert2.all.min.js"></script>
-      Optional: include a polyfill for ES6 Promises for IE11 -->
     <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
     <!-- ================== END BASE CSS STYLE ================== -->
 
@@ -53,7 +51,7 @@
             <div class="container-fluid">
                 <!-- begin mobile sidebar expand / collapse button -->
                 <div class="navbar-header">
-                    <a href="https://japammovil.com/" class="navbar-brand">
+                    <a href="https://japam.gob.mx/" class="navbar-brand">
                         {{--<span class="navbar-logo">
                             <i class="ion-ios-cloud"></i>
                         </span>
@@ -116,11 +114,6 @@
 {!!Html::script("assets/plugins/jquery/jquery-migrate-1.1.0.min.js")!!}
 {!!Html::script("assets/plugins/jquery-ui/ui/minified/jquery-ui.min.js")!!}
 {!!Html::script("assets/plugins/bootstrap/js/bootstrap.min.js")!!}
-<!--[if lt IE 9]>
-{!!Html::script("assets/crossbrowserjs/html5shiv.js")!!}
-{!!Html::script("assets/crossbrowserjs/respond.min.js")!!}
-{!!Html::script("assets/crossbrowserjs/excanvas.min.js")!!}
-<![endif]-->
 {!!Html::script("assets/plugins/slimscroll/jquery.slimscroll.min.js")!!}
 {!!Html::script("assets/plugins/jquery-cookie/jquery.cookie.js")!!}
 <!-- ================== END BASE JS ================== -->

@@ -1,2 +1,0 @@
-[12-Mar-2021 05:30:25 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/japammovil/public_html/tcs/app/Exceptions/Handler.php on line 11
-[29-May-2021 07:22:37 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/japammovil/public_html/tcs/app/Exceptions/Handler.php on line 11

@@ -77,7 +77,7 @@
             <hr>
                 <div>
                     <p class="text-center">
-                        <strong>Copyright © {!! date('Y') !!} <a target="_blank" href="https://japammovil.gob.mx/">JAPAM</a>.</strong> Todos los derechos reservados.
+                        <strong>Copyright © {!! date('Y') !!} <a target="_blank" href="https://japam.gob.mx/">JAPAM</a>.</strong> Todos los derechos reservados.
 
                     </p>
                 </div>

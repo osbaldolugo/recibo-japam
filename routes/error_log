@@ -1,8 +1,0 @@
-[12-Mar-2021 04:44:18 America/New_York] PHP Fatal error:  Class 'Route' not found in /home/japammovil/public_html/tcs/routes/api.php on line 19
-[12-Mar-2021 04:44:18 America/New_York] PHP Fatal error:  Class 'Artisan' not found in /home/japammovil/public_html/tcs/routes/console.php on line 16
-[12-Mar-2021 04:44:19 America/New_York] PHP Fatal error:  Class 'Route' not found in /home/japammovil/public_html/tcs/routes/web.php on line 14
-[12-Mar-2021 04:44:19 America/New_York] PHP Fatal error:  Class 'Broadcast' not found in /home/japammovil/public_html/tcs/routes/channels.php on line 14
-[28-May-2021 12:45:41 America/New_York] PHP Fatal error:  Class 'Artisan' not found in /home/japammovil/public_html/tcs/routes/console.php on line 16
-[28-May-2021 12:45:42 America/New_York] PHP Fatal error:  Class 'Route' not found in /home/japammovil/public_html/tcs/routes/api.php on line 19
-[28-May-2021 12:45:42 America/New_York] PHP Fatal error:  Class 'Route' not found in /home/japammovil/public_html/tcs/routes/web.php on line 14
-[28-May-2021 12:45:42 America/New_York] PHP Fatal error:  Class 'Broadcast' not found in /home/japammovil/public_html/tcs/routes/channels.php on line 14

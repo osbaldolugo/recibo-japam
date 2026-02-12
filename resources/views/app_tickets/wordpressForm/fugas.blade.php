@@ -245,35 +245,7 @@
                     </div>
                 @endif
             </div>
-            
-            <!--
-            <div style="padding-top: 0px; padding-right: 0px; padding-bottom: 54px; padding-left: 0px;" class="col-md-12">
-                <div  class="barra_azul">
-                    <div class="col-md-3 padding-imagenes">
-
-                        <img src="http://japammovil.gob.mx/wp-content/uploads/2019/05/ÍCONOS-13.png" alt="">
-
-                    </div> 
-                    <div class="col-md-6">
-                        <div style="color: white">
-                            <p>1. Completa el siguiente formulario.</p>
-                            <p>2. Especifica tus dudas o sugerencias.</p>
-                            <p>3. En un breve momento nos contactaremos contigo.</p>
-                            <p style="text-align: center;">*** Puedes enviarnos un correo a: contacto@japam.gob.mx&nbsp;***</p>
-                        </div>
-                    </div> 
-                    <div class="col-md-3 padding-imagenes">
-                        <img src="http://japammovil.gob.mx/wp-content/uploads/2019/05/ÍCONOS-11.png" alt="">
-                    </div> 
-                </div>
-
-            </div>
-             -->
             <div class="div-links" >
-
-                <!--<a type="" class="btn btn-warning" href="https://www.japammovil.com/tcs/public/receipts/searchGuest"><i class="fa fa-chevron-left"></i>  Atrás</a>
-                <a href="https://www.japammovil.com/tcs/public/generarreportefalta"  type="" class="btn btn-info">  Reportar Falta de Servicio</a>
-                <a href="https://www.japammovil.com/tcs/public/generarreportetomasc"  type="" class="btn btn-info">  Reportar Toma Clandestina</a>-->
             </div>
             <div class="panel-body cuerpo-panel ">
 
@@ -378,9 +350,6 @@
                                 
                             </label>
                         </div>
-                        <!-- <div class="col-md-9">
-                            <input multiple="multiple" type="file" class="form-control " id="url_image" name="url_image"/>
-                        </div> -->
                         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
                         
                         <div class="upload-btn-wrapper margen-divs" style="margin-left: 15px;">
@@ -394,18 +363,6 @@
                                
                             </div>
                         </div>
-                         <!--
-                        <div class="upload-btn-wrapper">
-                            <div class="col-md-6">
-                                <button onclick="readURL()" class="btn">Click!!</button>
-                                <input multiple="multiple" type="file" id="url_image" name="url_image"/>
-                            </div>
-                            <div style="margin-top: 27px" class="text-center col-md-12 ">
-                                <img style="max-width: 350px; height: auto;" id="blah" src="#" alt="" />
-                            </div>
-
-                        </div>
-                        -->
                         <script>
                             function readURL(input) {
                                 if (input.files && input.files[0]) {

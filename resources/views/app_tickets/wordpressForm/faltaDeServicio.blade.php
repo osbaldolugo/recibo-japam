@@ -233,32 +233,7 @@
                     </div>
                 @endif
             </div>
-            <!--
-            <div style="padding-top: 0px; padding-right: 0px; padding-bottom: 54px; padding-left: 0px;" class="col-md-12">
-                <div  class="barra_azul">
-                    <div class="col-md-3 padding-imagenes">
-
-                        <img src="http://japammovil.gob.mx/wp-content/uploads/2019/05/ÍCONOS-13.png" alt="">
-
-                    </div> 
-                    <div class="col-md-6">
-                        <div style="color: white">
-                            <p>1. Completa el siguiente formulario.</p>
-                            <p>2. Especifica tus dudas o sugerencias.</p>
-                            <p>3. En un breve momento nos contactaremos contigo.</p>
-                            <p style="text-align: center;">*** Puedes enviarnos un correo a: contacto@japam.gob.mx&nbsp;***</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 padding-imagenes">
-                        <img src="http://japammovil.gob.mx/wp-content/uploads/2019/05/ÍCONOS-11.png" alt="">
-                    </div> 
-                </div> 
-            </div>
-            -->
             <div class="div-links" style="">
-                <!--<a  class="btn btn-warning" href="https://www.japammovil.com/tcs/public/receipts/searchGuest"><i class="fa fa-chevron-left"></i>  Atrás</a>
-                <a href="https://www.japammovil.com/tcs/public/generarreportefuga"   class="btn btn-info">  Reportar Fugas</a>
-                <a href="https://www.japammovil.com/tcs/public/generarreportetomasc"   class="btn btn-info">  Reportar Tomas Clandestinas</a>-->
             </div>
             <div style="background-color: white" class="panel-body col-md-12">
 
@@ -274,19 +249,7 @@
                             </ul>
                         </div>
                 @endif
-                <!--tipo de reporte-->
-                    <!--
-                    <div style="margin-top: 5%;" class="form-group col-md-12">
-                        <div class="col-md-3 sel">
-                            <label for="title">Tipo de reporte:</label>
-                        </div>
-                        <div class="col-md-9">
-                            <label>Falta de servicio</label>
-                           
-                        </div>
-                    </div>
-                    -->
-                    
+
                      <input style="display: none" autocomplete="off" type="text" class="form-control inputs" id="report_type" name="report_type" value="Falta de servicio"/>
                     <input style="display: none" autocomplete="off" type="text" class="form-control inputs" id="type" name="type" value="Reporte"/>
                     <!--domicilio-->
@@ -368,9 +331,6 @@
                                 
                             </label>
                         </div>
-                       <!-- <div class="col-md-9">
-                            <input multiple="multiple" type="file" class="form-control bg-silver" id="url_image" name="url_image"/>
-                        </div> -->
                         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
                        
                        <div class="upload-btn-wrapper margen-divs" style="margin-left: 15px;">
@@ -384,18 +344,6 @@
                                
                             </div>
                         </div>
-                        <!--
-                        <div class="upload-btn-wrapper">
-                            <div class="col-md-6">
-                                <button onclick="readURL()" class="btn">Click!!</button>
-                                <input multiple="multiple" type="file" name="url_image" id="url_image"/>
-                            </div>
-                            <div style="margin-top: 27px" class="text-center col-md-12">
-                                <img style="max-width: 350px; height: auto;" id="blah" src="#" alt="" />
-                            </div>
-
-                        </div>
-                        -->
                         <script>
                             function readURL(input) {
                                 if (input.files && input.files[0]) {
@@ -435,40 +383,6 @@
                         </div>
 
                     </div>
-
-                   <!-- <script>
-                        var checado =true;
-                        function habilitar() {
-                            checado = !checado;
-                            console.log(checado);
-                            var checkbox = document.getElementById("select1");
-                            checkbox.disabled = !checado;
-                        }
-                    </script>
-                    activar notificación
-                    <div>
-                        <div style="margin-top: 5%;"  class="col-md-10"><label>Activa para que notifique a los usuarios.</label></div>
-                        <div style="margin-top: 5%;" class="col-md-">
-                            <label style="margin-top: 5%;"  class="switchBtn">
-                                <input id="campo1" name="campo1" type="checkbox" checked=checado onclick="habilitar()">
-                                <div class="slide round">PAN</div>
-                            </label>
-                        </div>
-                    </div>
-
-                    Selección del tipo de noticia
-                    <div style="margin-top: 5%;" class="col-md-12">
-                        <div style="text-align: center" class="col-md-3">
-                            <label for="type">Seleccione el tipo de noticia</label>
-                        </div>
-                        <div id="res" class="col-md-9 sel">
-                            <select style="width: 40%" class="btn btn-primary" name="type">
-                                <option>Noticia nacional</option>
-                                <option>Noticia local</option>
-                                <option id="select1" enabled=checado>Notificación</option>
-                            </select>
-                        </div>
-                    </div> -->
                     <hr>
                      <div class="boton centrado">
                         <button style="margin-bottom: 50px;" type="submit" class="btn-crear-reporte">Crear reporte</button>
