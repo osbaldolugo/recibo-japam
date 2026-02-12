@@ -1,0 +1,2 @@
+[12-Mar-2021 04:44:21 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/japammovil/public_html/tcs/tests/TestCase.php on line 8
+[28-May-2021 12:45:40 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/japammovil/public_html/tcs/tests/TestCase.php on line 8
