@@ -1,0 +1,233 @@
+/*
+ * Overwrite css classes
+ */
+
+.bg-color-1{
+    background: #013ca6 !important;
+}
+.bg-color-2{
+    background: #014bad !important;
+}
+.bg-color-3{
+    background: #0098cf !important;
+}
+
+.bwizard-steps li.success, .bwizard-steps li.success:focus, .bwizard-steps li.success:hover {
+    background: #007AFF!important;
+}
+
+.bwizard-steps .success * {
+    color: #fff!important;
+}
+.bwizard-steps li.success .label {
+    background: rgba(0,0,0,.2)!important;
+}
+
+.bwizard-steps.clickable li:focus.success a, .bwizard-steps.clickable li:hover.success a{
+    color: #fff!important;
+}
+
+.timeline .timeline-body {
+    background: #013CA6;
+    color: #fff;
+}
+
+.timeline .timeline-body:before {
+    border-right-color: #013CA6;
+}
+
+.timeline-content h1, .timeline-content h2, .timeline-content h3, .timeline-content h4, .timeline-content h5, .timeline-content h6 {
+    color: #FFF;
+}
+
+.bwizard-steps li.active, .bwizard-steps li.active:focus, .bwizard-steps li.active:hover {
+    background: #014bad !important;
+}
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+#wizard-picture {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*BEGIN Personalización del color de los tabs*/
+ul.myTab li:not(.active) a {
+    color: #FFF;
+}
+
+ul.myTab li:not(.active) a:hover, ul.myTab li:not(.active) a:focus {
+    color: #333;
+}
+/*END personalización del color de los tabs*/
+
+/* Summernote Border */
+.note-editor.note-frame{border:1px solid #a9a9a9 !important;}
+
+.navbar.navbar-default {
+    background: url('../img/header.jpg')!important;
+}
+
+.sidebar, .sidebar-bg {
+    background: #fff!important;
+}
+
+.panel-inverse > .panel-heading, .panel-inverse > .panel-toolbar {
+    background: #043ca5!important;
+    color:#ffffff!important;
+}
+
+.sidebar .nav > li.nav-profile {
+    color: black!important;
+    background: #fff!important;
+}
+
+.navbar-nav > li > a .label, .sidebar .nav > li.active > a, .sidebar .nav > li.active > a:focus, .sidebar .nav > li.active > a:hover, .navbar-nav > li > a .user-image.online::before, .page-sidebar-minified .sidebar .nav > li.has-sub.active:focus > a, .page-sidebar-minified .sidebar .nav > li.has-sub.active:hover > a, .page-sidebar-minified .sidebar .nav > li.has-sub.active > a, .label.label-theme, .btn.btn-scroll-to-top {
+    background: #043ca5!important;
+}
+
+.sidebar .nav > li.nav-header {
+    color: #000!important;
+}
+
+
+.sidebar-minify-btn {
+    background: #e4e4e4!important;
+    color:#000!important;
+}
+.sidebar-minify-btn>i{
+    color:#000!important;
+}
+
+.sidebar .sub-menu > li.active > a, .sidebar .sub-menu > li.active > a:focus, .sidebar .sub-menu > li.active > a:hover, .sidebar .sub-menu > li > a:focus, .sidebar .sub-menu > li > a:hover {
+    color: #000000 !important;
+}
+
+.btn.btn-success {
+    color: #fff!important;
+    background: #41B125!important;
+    border-color: #41B125!important;
+}
+
+.btn.btn-primary {
+    color: #fff;
+    background: #043CA5!important;
+    border-color: #fff!important;
+}
+
+.btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+    background: #005bbf;
+    border-color: #005bbf;
+}
+
+.btn.btn-inverse {
+    color: #fff;
+    background: #0397ce!important;
+    border-color: #fff !important;
+}
+
+.badge-success{
+    background: #008a8a!important;
+    color:#fff!important;
+}
+
+.invoice-price .invoice-price-right {
+    background: #00233e!important;
+}
+
+
+.tooltip{
+    max-width: 250px!important;
+}
+
+.tooltip-inner{
+    padding:4px 4px 4px 4px!important;
+    border-radius:3px;
+}
+
+.help-receipt>img{
+    max-height: 170px!important;
+    /*max-height: 150px;*/
+} /*fade top in*/
+
+.input-group-addon.help {
+    background: #0397ce;
+    color: #ffffff;
+    border: none;
+}
+
+.card-top
+{
+    position:relative;
+    margin: 0 !important;
+    width: auto !important;
+    border-radius: 0 !important;
+}
+
+.overlay
+{
+    width: 100% !important;
+    height: 175px !important;
+    position: absolute !important;
+    z-index: 99 !important;
+    top: 0 !important;
+    opacity: 0.6 !important;
+    background: #000 !important;
+    color: #fff !important;
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+}
+
+/* Starts block for responsive space and vertical centered image */
+.responsive-container {
+    position: relative;
+    width: 100%;
+}
+
+.space-ratio {
+    padding-top: 100%;
+}
+
+.img-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.img-container .centerer {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.img-container img {
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#btn-power
+{
+    cursor: pointer!important;.
+    width: auto!important;
+    height: 80px!important;
+    margin-top: 80px;
+}
+/* finalizes block for responsive space and vertical centered image */
+
+
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+    padding: 5px;
+}

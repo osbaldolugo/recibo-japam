@@ -1,0 +1,186 @@
+.push-p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.60;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    letter-spacing: -0.30px;
+    word-spacing: -0.10px;
+    text-transform: none;
+}
+
+/*NAVIGATION*/
+#textlogo {
+    text-align: left;
+    float: left;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-family: 'Dosis', sans-serif;
+}
+
+#titlebox {
+    height: 30px;
+    margin-bottom: 3px;
+}
+
+#title-char, #body-char {
+    font-size: 11px;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#sidebar-container p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/*WORKSPACE*/
+
+#ios-push-container {
+    height: 117px;
+    width: 325px;
+    background-image: url(../img/notification/ios_push_container.png);
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+#ios-push-appname {
+    font-family: Apple, sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 302px;
+    height: 20px;
+    margin-left: 33px;
+    padding-top: 8px;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+#ios-push-title {
+    font-family: Apple, sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 302px;
+    height: 20px;
+    margin-left: 33px;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+#ios-push-body {
+    font-family: Apple, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 1.4;
+    letter-spacing: 0.1px;
+    width: 300px;
+    margin-left: 14px;
+    margin-top: -8px;
+    word-wrap: break-word
+
+
+
+}
+#textBody{
+    font-size: 12px;
+}
+
+#textDescription{
+    word-wrap: break-word
+
+}
+
+/*404 PAGE*/
+
+
+/*MOBILE-ORIENTATIONS*/
+
+@media only screen and (min-height: 1366px) {.sidebar {height: 100%;}}
+
+@media only screen and (max-width: 820px) {
+
+    #ios-push-container {
+        width: 358px;;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    #ios-push-title {
+        width: 252px;
+        margin-left: 34px;
+        margin-top: 4px;
+        padding-top: 6px;
+        text-transform: uppercase;
+    }
+
+    #ios-push-body {
+        font-size: 14px;
+        width: 330px;
+        margin-left: 16px;
+        margin-top: -5px;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .bluebtn {width:80%;}
+
+    #errorbtn {width: 40%;}
+
+    .sidebar {position: static; height: 650px;}
+
+
+    #ios-push-container {
+        width: 220px;;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+    #ios-push-title {
+        width: 152px;
+        margin-left: 21px;
+        margin-top: 0px;
+        padding-top: 6px;
+        text-transform: uppercase;
+        font-size: 8px;
+    }
+
+    #ios-push-body {
+        font-size: 8.5px;
+        width: 205px;
+        margin-left: 10px;
+        margin-top: -20px;
+    }
+
+    #textlogomodal {font-size: 1em;}
+
+}
+
+.button-outline-md {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #013CA6;
+    color: #013CA6;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.button-round-md {
+    border-radius: 64px;
+    padding: 0 2.6rem;
+}
+
+.text-primary{
+    color: #013CA6!important;
+}

@@ -1,0 +1,54 @@
+iframe {
+  padding: 0;
+  border: none;
+  width: 400px;
+  height: 500px;
+
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;}
+
+.img-receipt{
+    max-height:50px;
+}
+
+.img-paid-receipt{
+    display: inline-block;
+    max-height:120px;
+}
+
+.store{
+    background-color: #fafafa;
+    border-radius:5px;
+    cursor:pointer;
+    height:70px;
+}
+
+.store img{
+    max-width:110px;
+    height:auto;
+}
+
+
+.store-selected{
+    background-color: #cccccc;
+}
+
+#popCvv{
+    padding:5px;
+}
+#popCvv img{
+    height:110px;
+    width:170px;
+}
+
+
+.card-header{
+    color:#fff;
+    background-color: #00349C;
+}
+
+.vcenter {
+   display:flex;
+   align-items:center;
+}
