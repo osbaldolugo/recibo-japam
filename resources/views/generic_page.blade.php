@@ -97,39 +97,11 @@
         background:         linear-gradient(90deg, #6a9faf 41%, #0dc5fb 127%);
     }
 </style>
-<!-- <section class="section_item flex-container color-2">
-    <h1 class="flex-item">Watermelon</h1>
-    <p class="flex-item">From #e74d6b to #8cc8ac and Cupcake ipsum dolor sit amet. Topping biscuit jelly beans chocolate danish powder dessert. Donut candy chocolate bar. Jelly bear claw cotton candy apple pie muffin lemon drops.</p>
-</section>
-<section class="section_item flex-container color-3">
-    <h1 class="flex-item">Pinapple</h1>
-    <p class="flex-item">From #65997d to #fccb6e and Cupcake ipsum dolor sit amet. Topping biscuit jelly beans chocolate danish powder dessert. Donut candy chocolate bar. Jelly bear claw cotton candy apple pie muffin lemon drops.</p>
-</section> -->
+
 <section class="section_item flex-container color-3">
     <h1 class="flex-item">JAPAM!</h1>
     <p class="flex-item">Por el momento no se ha generado el código QR para proceder a pagar, le recomendamos pagar en uno de nuestros sistemas de pago de Japam.</p>
 </section>
-<!--
-<div class="col-md-12">
-    <div class="col-md-4">
-        <section style="width:30%; float: left; margin: 1%;" class="section_item1 color-2">
-            <h1 class="flex-itemh">Atención a clientes</h1>
-            <p class="flex-itemp">From #e74d6b to #8cc8ac and Cupcake ipsum dolor sit amet. Topping biscuit jelly beans chocolate danish powder dessert. Donut candy chocolate bar. Jelly bear claw cotton candy apple pie muffin lemon drops.</p>
-        </section>
-    </div>
-    <div class="col-md-4">
-        <section style="width:30%; float: left; margin: 1%;" class="section_item1 color-2">
-            <h1 class="flex-itemh">Paga en la web</h1>
-            <p class="flex-itemp">From #e74d6b to #8cc8ac and Cupcake ipsum dolor sit amet. Topping biscuit jelly beans chocolate danish powder dessert. Donut candy chocolate bar. Jelly bear claw cotton candy apple pie muffin lemon drops.</p>
-        </section>
-    </div>
-    <div class="col-md-4">
-        <section style="width:30%; float: left; margin: 1%;" class="color-2 section_item1">
-            <h1 class="flex-itemh">Descarga y paga en nuestra app4</h1>
-            <p class="flex-itemp">From #e74d6b to #8cc8ac and Cupcake ipsum dolor sit amet. Topping biscuit jelly beans chocolate danish powder dessert. Donut candy chocolate bar. Jelly bear claw cotton candy apple pie muffin lemon drops.</p>
-        </section>
-    </div>
-</div> -->
 
 </body>
 </html>

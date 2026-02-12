@@ -27,7 +27,6 @@
                             <div class="stats-progress progress">
                                 <div class="progress-bar" style="width: 70.1%;"></div>
                             </div>
-                            <!--<div class="stats-desc">Porcentaje</div>-->
                         </div>
                     </div>
                     <!-- end col-3 -->
@@ -40,7 +39,6 @@
                             <div class="stats-progress progress">
                                 <div class="progress-bar" style="width: 70.1%;"></div>
                             </div>
-                            <!--<div class="stats-desc">Porcentaje</div>-->
                         </div>
                     </div>
                     <!-- end col-3 -->
@@ -106,7 +104,6 @@
                                     Origen de Tickets Abiertos
                                 </h4>
                             </div>
-                            <!--<div id="visitors-map" class="bg-black" style="height: 181px;"></div>-->
                             <div class="list-group">
                                 @IF(isset($suburbTickets))
                                     @foreach($suburbTickets as $suburbTicket)
@@ -117,10 +114,6 @@
                                     @endforeach
 
                                 @ENDIF
-                                <!--</a><a href="#" class="list-group-item list-group-item-inverse text-ellipsis">
-                                    <span class="badge badge-inverse">1</span>
-                                    5.
-                                </a>-->
                             </div>
                         </div>
                     </div>

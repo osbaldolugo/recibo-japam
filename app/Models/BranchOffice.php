@@ -73,13 +73,7 @@ class BranchOffice extends Model
      * @var array
      */
     public static $rules = [
-        /*'branch_office.description' => 'required',
-        'branch_office.street' => 'required',
-        'branch_office.settlement' => 'required',
-        'branch_office.cp' => 'required',
-        'branch_office.latitude' => 'required',
-        'branch_office.longitude' => 'required',
-        'branch_office.image' => 'required|mimes:jpeg,png,jpg,svg|dimensions:min_width=1100,min_height=600',*/
+
     ];
 
     public static $messages = [

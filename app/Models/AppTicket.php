@@ -94,12 +94,6 @@ class AppTicket extends Model
         'latitude.required' => 'No se ha completado la dirección para determinar la latitud de la ubicación',
         'longitude.required' => 'No se ha completado la dirección para determinar la longitud de la ubicación',
         'description.required' => 'La descripción del reporte es requerida',
-        /*'street.required' => 'No se ha determinado la calle de la ubicación',
-        'outside_number.required' => 'No se ha determinado el No. exterior de la ubicación',
-        'suburb.required' => 'No se ha determinado la colonia de la ubicación',
-        'suburb.integer' => 'La información de la colonia no puede ser contrastada con la información del servidor',
-        'cp.required' => 'No se ha determinado el código postal de la ubicación',
-        'cp.digits_between' => 'El código postal no corresponde a uno de SJR'*/
     ];
 
     /**

@@ -57,20 +57,4 @@ class Audits extends Model
 
     ];
 
-//    /**
-//     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-//     **/
-//    public function user()
-//    {
-//        return $this->belongsTo(\App\User::class, 'user_id');
-//    }
-//
-//    /**
-//     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-//     **/
-//    public function ticket()
-//    {
-//        return $this->belongsTo(\App\Models\Ticket::class, 'ticket_id');
-//    }
-
 }

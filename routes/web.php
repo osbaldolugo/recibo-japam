@@ -46,7 +46,6 @@ Route::get('login/activate/count/{token}/{email?}', 'AppUserController@verifyEMa
 Route::post('/paymentSucceeded', 'WebhookController@handlePaymentSucceeded');
 Route::post('/paymentWebPay', 'WebhookController@getPaymentInfo');
 
-
 //Auth
 Route::get('app-user/login', 'AuthAppUser\LoginController@login')->name('appUser.login.view');
 Route::get('app-user/register', 'AuthAppUser\LoginController@register')->name('appUser.register.view');
@@ -61,20 +60,11 @@ Route::get('app-user/password/reset', 'AuthAppUser\ForgotPasswordController@show
 Route::post('app-user/password/reset', 'AuthAppUser\ResetPasswordController@reset');
 Route::get('app-user/password/reset/{token}', 'AuthAppUser\ResetPasswordController@showResetForm')->name('appUser.password.reset');
 
-
 Route::get('receipts/searchGuest', 'ReceiptController@searchGuest')->name('receipts.searchGuest');
 Route::post('receipts/consult', 'ReceiptController@consult')->name('receipts.consult');
 Route::post('receipts/processPay/{type}', 'ReceiptController@processPay');
 Route::get('receipts/generateReceiptPDF/{id}', 'ReceiptController@generateReceiptPDF');
 
-
-
-//Route::group(['middleware' => ['appUser']], function () { //BEGEING MIDDLEWARE
-//Receipt routes
-
-//Inicialmente la siguiente ruta no tenia middleware de appUser, asi que opte por hacer otra ruta que es igual solo agregandole el middleware de lofueo por parte del usuario.
-    //Route::get('receipts', 'ReceiptController@index')->name('receipts.indexWeb');
-    
     Route::get('receipts', array(
         'as' => 'receipts.indexWeb',
         'middleware' => 'appUser',
@@ -268,8 +258,6 @@ Route::group(['middleware' => ['auth']], function () {
         Route::delete('admin/users/delete/{id_user}', 'AdministratorsController@deleteUser')->name('admin.users.delete');
         Route::get('admin/users/restore/{id_user}', 'AdministratorsController@restoreUser')->name('admin.users.restore');
 
-        //Tickets demo data route (ex. http://url/tickets-admin/demo-seeds/)
-        // Route::get("$admin_route/demo-seeds", 'Kordy\Ticketit\Controllers\InstallController@demoDataSeeder');
     });
 
     //AppTicket

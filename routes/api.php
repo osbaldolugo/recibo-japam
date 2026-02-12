@@ -17,44 +17,14 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });*/
 
 Route::get('/ticketStatus/{ticket_id}','Api\AppTicketController@ticketStatus');
-
 Route::post('register', 'Api\Auth\RegisterController@register');
 Route::post('login', 'Api\Auth\LoginController@login');
 Route::post('refresh', 'Api\Auth\LoginController@refresh');
-
-
 Route::post('loginIntern', 'Api\AuthIntern\LoginController@login');
 Route::post('refreshIntern', 'Api\AuthIntern\LoginController@refresh');
-
-
-//Route::group(['namespace'=>'Api', 'middleware' => ['auth:api', ]], function () {
 Route::group(['namespace'=>'Api'], function () {
-    /*Utilizar Solo Para Pruebas Locales*/
-
-    /*if (isset($_SERVER['HTTP_ORIGIN'])) {
-        header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
-        header('Access-Control-Allow-Credentials: true');
-        header('Access-Control-Max-Age: 86400');    // cache for 1 day
-    }
-    // Access-Control headers are received during OPTIONS requests
-    if (isset($_SERVER['REQUEST_METHOD']))
-        if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
-            if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD']))
-                header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
-            if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']))
-                header("Access-Control-Allow-Headers: {$_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']}");
-            exit(0);
-        }
-    header("Cache-Control: no-cache");//Dont cache
-    header("Pragma: no-cache");//Dont cache*/
-    
-    //Fuente: http://entredesarrolladores.com/6482/problema-con-cors
-    /*DESCOMENTA PARA PRODUCCION*/
 
     header('Access-Control-Allow-Origin: *');
-     //header('Access-Control-Allow-Origin: http://localhost:8100');
-     //header('Access-Control-Allow-Origin: http://localhost');
-     //header('Access-Control-Allow-Credentials: true');
      header('Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE');
      header('Access-Control-Allow-Headers: Authorization, X-Requested-With,  Content-Type, Accept');
      header("Cache-Control: no-cache");//Dont cache
