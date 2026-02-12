@@ -1,0 +1,2 @@
+[12-Mar-2021 04:44:11 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/japammovil/public_html/tcs/app/User.php on line 10
+[28-May-2021 12:45:02 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/japammovil/public_html/tcs/app/User.php on line 10

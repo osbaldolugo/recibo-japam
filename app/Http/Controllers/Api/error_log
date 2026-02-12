@@ -1,0 +1,2 @@
+[20-Jul-2021 11:52:16 America/New_York] PHP Fatal error:  Class 'App\Http\Controllers\AppBaseController' not found in /home/japammovil/public_html/tcs/app/Http/Controllers/Api/AppSliderHomeController.php on line 12
+[20-Jul-2021 11:52:20 America/New_York] PHP Fatal error:  Class 'App\Http\Controllers\AppBaseController' not found in /home/japammovil/public_html/tcs/app/Http/Controllers/Api/AppTicketController.php on line 15

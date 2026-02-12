@@ -1,0 +1,37 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Soporte
+ * Date: 10/01/2018
+ * Time: 01:03 PM
+ */
+
+namespace App\Http\Requests;
+
+use App\Models\Sector;
+use App\Models\SectorDots;
+use Illuminate\Foundation\Http\FormRequest;
+
+class CreateSectorRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        return SectorDots::$rules;
+    }
+
+}

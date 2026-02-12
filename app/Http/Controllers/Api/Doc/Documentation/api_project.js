@@ -1,0 +1,14 @@
+define({
+  "name": "japam_web",
+  "version": "1.0.0",
+  "description": "Internal control of mobile application and ticket system.",
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2018-01-04T17:40:05.830Z",
+    "url": "http://apidocjs.com",
+    "version": "0.17.6"
+  }
+});
