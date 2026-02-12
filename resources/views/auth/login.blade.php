@@ -16,13 +16,7 @@
     <div class="login-content">
         <form action="{{ url('/login') }}" method="POST" class="form-horizontal" role="form">
             {!! csrf_field() !!}
-            <!-- Si no tiene erorres es que todo bie-->
-             @if ($success)
-                    <span class="help-block">
-                        <strong>Se ha registrado correctamente</strong>
-                    </span>
-            @endif
-            <dif>{$success}</dif>
+
             <div class="form-group m-b-15{{ $errors->has('email') ? ' has-error' : '' }}">
                 <input type="email" class="form-control input-lg" name="email" value="{{ old('email') }}" placeholder="Correo electrónico" />
                 @if ($errors->has('email'))

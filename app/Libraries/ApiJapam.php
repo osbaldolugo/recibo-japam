@@ -21,7 +21,7 @@ class ApiJapam
         $this->http = new HttpConnection();
         //$this->serverIP = "http://45.5.52.110:1022";
         /*$this->serverIP = "http://45.5.52.109:1022";*/
-        $this->serverIP = "http://45.5.52.164:7000";
+        $this->serverIP = "http://45.5.52.162:1036";
         $this->urlbase = "/sicagua35/api";
         /*$this->API = "/TRecibo/valwcontrato/22560-22560-2064"; //inicio en la logica de la aplicacion;
         $this->API = "/TRecibo/valwcontrato/22560-22560-20642"; //validar el contrato
