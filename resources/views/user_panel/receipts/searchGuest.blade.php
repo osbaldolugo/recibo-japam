@@ -6,7 +6,6 @@
     @if(!env("MANTENIMIENTO"))
         @include('auth-app-user.terms')
         @include('user_panel.receipts.modals.receiptPdf')
-        @include('user_panel.receipts.modals.ayuda')
 
         <style>
             .texto-no-encontrado {
@@ -108,10 +107,6 @@
                                 </div>
                             </li>
                         </div>
-                        <a onclick="generarPlayer()" href="#" style="margin-top: 4px" class="pull-right" data-toggle="modal"
-                            data-target="#create">
-                            <img width="74px;" src="{!! url('assets/img/receipt/help1.jpg') !!}">
-                        </a>
                         <script>
                             function muestra_oculta(id) {
                                 if (document.getElementById) { //se obtiene el id
@@ -137,10 +132,6 @@
             <div id="receipt-contrac" disabled class="col-lg-7">
                 @include('user_panel.receipts.receipt-contract')
             </div>
-            {{-- <div id="pay-method" class="col-lg-7">
-                @include('user_panel.receipts.pay-method')
-            </div>
-            --}}
 
         </div>
 

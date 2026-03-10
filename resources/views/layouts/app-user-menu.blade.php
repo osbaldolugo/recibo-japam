@@ -19,38 +19,8 @@
         <span>Pagar Recibo</span>
     </a>
 </li>
-@if(auth('appuser')->check())
-    <li class="{{ Request::is('receipts') ? 'active' : '' }}">
-        <a href="{!! route('receipts.indexWeb') !!}">
-            <i class="fa fa-file-text bg-grey-darker"></i>
-            <span>Mis Recibos</span>
-        </a>
-    </li>
 
-    <li>
-        <a href="{{ route('appUser.logout') }}"
-           onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-            <i class="fa fa-power-off bg-grey-darker"></i>
-            <span>Cerrar Sesión</span>
-        </a>
-        <form id="logout-form" action="{{ route('appUser.logout')}}" method="POST" style="display: none;">
-            {{ csrf_field() }}
-        </form>
-    </li>
-@endif
-
-@if(!auth('appuser')->check())
-    <li class="" >
-        <a href="{{ route('appUser.login.view') }}"><i class="fa fa-arrow-circle-o-right fa-3x text-inverse bg-green"></i><span> Iniciar sesión</span></a>
-    </li>
-
-    <li class="" >
-        <a href="{!! route('register') !!}"><i class="fa fa-3x fa-pencil-square text-inverse bg-aqua"></i><span> Registrarse</span></a>
-    </li>
-
-@endif
 <br>
-<li><span>&nbsp; &nbsp;Crear reporte por:</span></li>
 <li class="">
     <a href="{!! route('falta.servicio') !!}">
         <i class="ion-alert text-inverse bg-orange"></i>
@@ -78,14 +48,6 @@
 <li>
     <hr>
 </li>
-{{--
-    <li class="{{ Request::is('schedule*') ? 'active' : '' }}">
-        <a href="{!! route('schedule.request') !!}">
-            <i class="fa fa-calendar bg-aqua-darker"></i>
-            <span>Solicitar cita</span>
-        </a>
-    </li>
---}}
     <!-- begin sidebar minify button -->
     <li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="ion-ios-arrow-left"></i> <span>Ocultar</span></a></li>
     <!-- end sidebar minify button -->
